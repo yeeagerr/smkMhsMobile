@@ -71,7 +71,7 @@ const Detail = ({navigation}) => {
             />
           </View>
 
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate('Info')}>
             <View style={style.konfirm}>
               <Text style={{color: 'white', fontSize: 18, letterSpacing: 1}}>
                 Konfirmasi Pemesanan
